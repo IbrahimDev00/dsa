@@ -1,0 +1,4 @@
+The main idea is to reverse the last half of the digits of the number and compare it with the first half. If the first half and the reversed second half are the same, then the number is a palindrome.
+
+Negative Numbers: Any negative number cannot be a palindrome because of the minus sign.
+Trailing Zeros: Any number that ends in 0 (except for 0 itself) cannot be a palindrome, because the reversed number would start with a 0, which is not allowed unless the number is 0.
