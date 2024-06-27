@@ -1,0 +1,3 @@
+We are given a 2 dimensional matrix, and we need to check the element that occurs at the center of the star, a sufficient and necessary condition is to just check the element which is being repeated in the first 2 lists, there is no need to verify with each and every list present within the array. 
+So using this logic as our base i am comparing the first element at (0,0) position with both the elements within the second list. 
+If there is a match we return the element at (0,0) else we return the element at (0,1).
