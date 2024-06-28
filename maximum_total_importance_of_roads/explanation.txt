@@ -1,0 +1,7 @@
+arr: An array of size n initialized to zero. This array will keep track of the number of roads connected to each city.
+Iterate through each road represented by a pair [A, B].
+For each road, increment the count for both cities A and B.
+Sort the array arr in ascending order. After sorting, cities with fewer roads will be at the beginning, and cities with more roads will be at the end.
+nitialize a variable sumation to store the total importance.
+Iterate through the sorted array arr.
+Multiply the number of roads for each city (arr[i]) by its assigned importance value (i + 1), and add this to sumation.
