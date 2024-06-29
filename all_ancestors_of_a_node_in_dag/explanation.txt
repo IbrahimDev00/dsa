@@ -1,0 +1,15 @@
+Build the Graph: Create an adjacency list to represent the graph.
+Topological Sort: Use a topological sort to process nodes in an order such that each node appears before any of its descendants.
+Propagate Ancestors: As we process each node in topological order, propagate its ancestors to its children.
+
+graph is an adjacency list where graph[a] contains all nodes b such that there is an edge from a to b.
+indegree counts the number of incoming edges for each node.
+
+We use a stack to process nodes with no incoming edges (indegree[i] == 0).
+topo_order stores the nodes in topological order.
+
+ancestors is a list where ancestors[i] is a set of all ancestors of node i.
+For each node in topological order, we add it to its neighbors' ancestor sets and also add its own ancestors to its neighbors' ancestor sets.
+
+Finally, convert each set of ancestors to a sorted list.
+
