@@ -53,10 +53,12 @@ The index i is then incremented by 2 to skip the next character since it has alr
 
 ```else:
     sum += dic[s[i]]
-    i += 1```
+    i += 1
+```
 
 If the subtractive notation condition is not met, the current numeral's value is added to sum.
 The index i is incremented by 1 to move to the next character.
+
 #### 6. Return the Result
 
 `return sum`
