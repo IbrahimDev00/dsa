@@ -1,5 +1,0 @@
-first iterate through the list "nums"
-check if the i'th position in nums is equal to value or not, if not equal then shift it to k'th position
-increment the value of k by 1
-this will ensure that all the elements that are not equal to val, are at the start of the list, and the ones equal to val are at the end of the list.
-repeat the process.
