@@ -33,7 +33,8 @@ A for-loop is used to iterate over each element i in the list arr.
 
 #### Check if the Number is Odd
 
-        ```if i % 2 != 0:
+        ```
+        if i % 2 != 0:
             odd += 1
             if odd == 3:
                 return True
