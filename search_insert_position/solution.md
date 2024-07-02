@@ -24,7 +24,7 @@ Output: 4
 ## Code:
 
 #### Python
-``` 
+```python
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         l = 0
@@ -39,7 +39,7 @@ class Solution:
 
 ```
 #### Go
-``` 
+```go 
 func searchInsert(nums []int, target int) int {
     l := 0
     r := len(nums) -1

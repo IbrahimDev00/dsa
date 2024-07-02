@@ -19,7 +19,7 @@ Explanation: [9,4] is also accepted.
 ## Code:
 
 #### Python
-```
+```python
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
@@ -39,7 +39,7 @@ class Solution:
 
 ```
 #### Go
-```
+```go
 func intersect(nums1 []int, nums2 []int) []int {
     countMap := make(map[int]int)
     for _, num := range nums1 {
