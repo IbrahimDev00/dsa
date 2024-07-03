@@ -6,7 +6,7 @@ Given an integer array arr, return true if there are three consecutive odd numbe
 
 ## Code:
 
-```
+```python
 class Solution:
     def threeConsecutiveOdds(self, arr: List[int]) -> bool:
     odd = 0
